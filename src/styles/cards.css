@@ -1,0 +1,15 @@
+/********************************************************
+*                       CARDS
+********************************************************/
+.card {
+  border: 0;
+}
+.card-header {
+  margin-top: 5vh;
+  background-color: rgb(35, 87, 137);
+  color: #fff;
+  border-radius: 20px;
+}
+.second-color {
+  background-color: #28afb0;
+}

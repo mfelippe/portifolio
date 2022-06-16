@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "LouisG";
+  src: url(./Louis_George_Cafe.ttf) format("truetype");
+}
+
+@import "./cards.css";
+/**
+* https://coolors.co/ed1c24-fdfffc-235789-f1d302-020100
+* https://coolors.co/28afb0-fdfffc-235789-1e2019-ef5b5b
+*/
+* {
+  /*
+    * RESET DE CSS
+    */
+
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: #fdfffc;
+}
+
+.container {
+  font-family: "LouisG";
+}
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img {
+  width: 80%;
+  height: 100%;
+}
+.navbar {
+  list-style: none;
+  color: black;
+  padding: 0;
+}
+.nav-item,
+a {
+  text-decoration: none;
+  color: black;
+  margin: 2px;
+}
